@@ -1,0 +1,15 @@
+.slider-img{
+   height: 400px !important;
+}
+.product-col{
+    margin-bottom: 20px;
+}
+.trending{
+    text-align: center;
+}
+.card-img-top {
+width: 100%; height: 45vh; object-fit: cover;
+}
+.carousel-caption {
+    background-color: rgba(132, 120, 255, 0.5);
+}

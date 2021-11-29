@@ -15,20 +15,12 @@
                 <a class="nav-link" href="#">Orders</a>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Cart</a>
+                <a class="nav-link" href="#">Cart (0)</a>
             </li>
-            <li class="nav-item">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </li>
+
         </ul>
 
     </div>
