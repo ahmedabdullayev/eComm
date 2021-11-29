@@ -32,7 +32,7 @@
         <form action="/add_to_cart" method="POST">
             @csrf
             <input type="hidden" name="product_id" value={{$details->id}}>
-            <button type="button" class="btn btn-light btn-md mr-1 mb-2"><i
+            <button type="submit" class="btn btn-light btn-md mr-1 mb-2"><i
                     class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
         </form>
         <button type="button" class="btn btn-primary btn-md mr-1 mb-2">Buy now</button>
