@@ -20,9 +20,9 @@ $total = ProductController::cartItem();
             <li class="nav-item active">
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Orders</a>
-            </li>
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" href="#">Orders</a>--}}
+{{--            </li>--}}
 
         </ul>
         <ul class="navbar-nav ml-auto">
