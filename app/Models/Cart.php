@@ -11,9 +11,9 @@ class Cart extends Model
     use HasFactory;
     public $table = "cart";
     public function users(){
-        return $this->hasMany(User::class);
+        return $this->belongsToMany(User::class);
     }
     public function products(){
-        return $this->hasMany(Product::class);
+        return $this->belongsToMany(Product::class);
     }
 }

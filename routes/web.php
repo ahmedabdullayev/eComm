@@ -29,3 +29,5 @@ Route::post("login",[UserController::class, 'login']);
 Route::post("add-to-cart",[ProductController::class, 'addToCart']);
 
 Route::get("product-detail/{id}", [ProductController::class, 'detail']);
+Route::get("cart", [ProductController::class, 'cartList']);
+
