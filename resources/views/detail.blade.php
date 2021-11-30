@@ -29,7 +29,7 @@
         </div>
         <hr>
 
-        <form action="/add_to_cart" method="POST">
+        <form action="/add-to-cart" method="POST">
             @csrf
             <input type="hidden" name="product_id" value={{$details->id}}>
             <button type="submit" class="btn btn-light btn-md mr-1 mb-2"><i
