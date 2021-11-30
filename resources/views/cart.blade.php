@@ -12,13 +12,13 @@
                                 <div class="card-body">
                                     <h5 class="card-title">{{$item->name}}</h5>
                                     <p>{{$item->description}}</p>
-                                    <a href="/removecart/{{$item->cart_id}}" class="btn btn-warning" >Remove from Cart</a>
+{{--                                    <a href="/removecart/{{$item->cart_id}}" class="btn btn-warning" >Remove from Cart</a>--}}
                                 </div>
                             </div>
                         </div>
                     @endforeach
                 </div>
             </div>
-            <a class="btn btn-success" href="ordernow">Order Now</a> <br> <br>
+{{--            <a class="btn btn-success" href="ordernow">Order Now</a> <br> <br>--}}
 
 @endsection

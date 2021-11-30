@@ -26,8 +26,10 @@ Route::get('logout', function () {
 });
 
 Route::post("login",[UserController::class, 'login']);
+//Route::post("register",[UserController::class, 'register']);
 Route::post("add-to-cart",[ProductController::class, 'addToCart']);
 
 Route::get("product-detail/{id}", [ProductController::class, 'detail']);
 Route::get("cart", [ProductController::class, 'cartList']);
 
+Route::view("/register", 'register');
