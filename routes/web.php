@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
+use Illuminate\Support\Facades\Session;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +17,11 @@ use App\Http\Controllers\ProductController;
 */
 Route::get("/",[ProductController::class, 'index']);
 Route::get('login', function () {
+    return view('login');
+});
+
+Route::get('logout', function () {
+    Session::forget("user");
     return view('login');
 });
 
